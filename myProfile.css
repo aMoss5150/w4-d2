@@ -1,0 +1,15 @@
+
+h1.name {
+    color: green;
+    padding: 40px 20px;
+}
+
+ul.detailList {
+    border: 20px blue;
+    padding: 40px;
+}
+
+li.detail {
+    list-style-type: square;
+    padding: 10px;
+}
