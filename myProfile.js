@@ -40,10 +40,14 @@ window.addEventListener('DOMContentLoaded', event => {
     document.body.appendChild(ul)
     ul.setAttribute("class", "detailList")
 
-    let ul2Array = []
+    let ul2Array = ["<li>computer monitor</li>", "<li>laptop</li>", "<li>keyword</li>"]
     let ul2 = document.createElement("ul")
-
-
+    document.body.appendChild(ul2)
+    let ul2Str = ul2Array.join(" ")
+    ul2.setAttribute("id", "word")
+    ul2.classList.add("extraList")
+    let ul2Element = document.getElementById("word")
+    ul2Element.innerHTML = ul2Str;
     console.dir(document.body)
 
     let allDetails = document.querySelectorAll("li")
